@@ -6,4 +6,11 @@
 - Create new project "Neuralearn"  
 - Select Web Icon
 - npm install firebase
-- Go to Settings > Project Settings > SDK Setup and Configuration > Config & copy the config 
+- Go to Settings > Project Settings > SDK Setup and Configuration > Config & copy the config
+- cd neuralearn/src 
+- rm App.test.js logo.svg setupTests.js
+
+# RUN
+- cd neuralearn
+- npm start
+ 
