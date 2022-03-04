@@ -9,6 +9,8 @@
 - Go to Settings > Project Settings > SDK Setup and Configuration > Config & copy the config
 - cd neuralearn/src 
 - rm App.test.js logo.svg setupTests.js
+- npm install @material-ui/core
+- npm install @material-ui/icons
 
 # RUN
 - cd neuralearn
