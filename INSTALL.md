@@ -11,6 +11,7 @@
 - rm App.test.js logo.svg setupTests.js
 - npm install @material-ui/core
 - npm install @material-ui/icons
+- npm install --save material-ui-icons
 
 # RUN
 - cd neuralearn

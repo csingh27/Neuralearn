@@ -1,0 +1,32 @@
+.header { 
+        display: flex; /* Display the elements of the class in a single line */ 
+        align-items: center; 
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.header__left__logo {
+	height: 100px;
+}
+
+.header__left__heading {
+	display: flex;
+	align-items: left;
+	flex-direction: column;
+}
+
+.header__left {
+	display: flex;
+	align-items: left;
+	flex-direction: row;
+}
+
+.header__input {
+	display: flex;
+	align-items: center;
+}
+
+.header__icons {
+	display: flex;
+	align-items: center;
+}
