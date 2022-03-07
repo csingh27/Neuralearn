@@ -1,56 +1,17 @@
 import React from "react";
 import './App.css';
 import Header from './Header';
+import Sidebar from './Sidebar';
+import RecommendedVideos from './RecommendedVideos';
 
 function App() {
   return (
     <div className="app">
 	<Header />
-
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-	<h1> Best way to learn Robotics & AI </h1>
-
-	{/* Header -> </header> */}
-	{/* Sidebar -> </sidebar> */}
-	{/* RecommendedVideos -> </header> */}
+	<div className="app__page">
+	<Sidebar />
+	 <RecommendedVideos />
+	 </div>
     </div>
   );
 }
