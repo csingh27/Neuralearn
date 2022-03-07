@@ -5,8 +5,8 @@ import HomeIcon from "@material-ui/icons/Home";
 function SidebarRow( {Icon, title} ){
 return(
 	<div className="sidebarRow">
-	<Icon />
-	<h2>{title}</h2>
+	<Icon className="SidebarRow__icon" />
+	<h2 className="SidebarRow__title">{title}</h2>
 		
 	</div>	
 );
