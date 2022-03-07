@@ -15,8 +15,10 @@
 
 .header__left__heading {
 	display: flex;
-	align-items: left;
+	align-items: center;
+	margin-top:15px;
 	flex-direction: column;
+	font-size: 15px;
 }
 
 .header__left {

@@ -1,5 +1,4 @@
 import React from 'react';
-import MenuIcon from '@material-ui/icons/Menu';
 import SearchIcon from '@material-ui/icons/Search';
 import VideoCallIcon from '@material-ui/icons/VideoCall';
 import AppsIcon from '@material-ui/icons/Apps';
@@ -14,9 +13,8 @@ return(
 	<img className="header__left__logo" src="https://static.wixstatic.com/media/e50297_ceaf6c7af0834d85b0c32ec46121cfc3~mv2.png" alt="" />
 	<div className="header__left__heading">
 	<h1>The Building Culture</h1>
-	<h1> Best way to learn Robotics & AI </h1>
+	Best way to learn Robotics & AI
 	</div>
-	<MenuIcon/>
 	</div>
 
 	<div className="header__input">
