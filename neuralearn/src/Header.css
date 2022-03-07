@@ -3,6 +3,10 @@
         align-items: center; 
 	justify-content: space-between;
 	padding: 20px;
+	position: sticky; /* fixed bar */
+	top: 0; /* Attach to the top  */
+	z-index: 100; /* How far on top it is */
+	background-color: white;
 }
 
 .header__left__logo {
@@ -24,9 +28,27 @@
 .header__input {
 	display: flex;
 	align-items: center;
+	width: 40%;
+	border: 1px solid lightgray;
+}
+
+.header__inputButton {
+	width: 50px;
+        background-color: #fafafa;
+	border-left: 1px solid lightgray;
+	color: gray;
 }
 
 .header__icons {
 	display: flex;
 	align-items: center;
+}
+
+.header__input > input {
+flex: 1;
+border: none;
+}
+
+.header__icon {
+	margin-right: 8px;
 }

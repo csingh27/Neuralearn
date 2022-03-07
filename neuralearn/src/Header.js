@@ -18,17 +18,21 @@ return(
 	</div>
 	<MenuIcon/>
 	</div>
+
 	<div className="header__input">
-	<input type="text" />
-	<SearchIcon />
+	<input placeholder="Search" type="text" />
+	<SearchIcon className="header__inputButton" />
 	</div>
+
 	<div className="header__icons">
-	<VideoCallIcon />
-	<AppsIcon />
-	<NotificationsIcon />
+	<VideoCallIcon className="header__icon" />
+	<AppsIcon className="header__icon" />
+	<NotificationsIcon className="header__icon" />
 	<Avatar className="avatar" alt="Chandandeep Singh" src="https://media-exp1.licdn.com/dms/image/D4E35AQFu219rFUl3cw/profile-framedphoto-shrink_400_400/0/1645556227594?e=1646643600&v=beta&t=f_crIKFlcktm0NSW5dGeP2vdvDclLdk8VXjjL2WQsfI" />
 	</div>
-	</div>
+	
+</div>
+
 );
 }
 export default Header;
