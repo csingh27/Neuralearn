@@ -14,6 +14,7 @@ return(
 	<SidebarRow Icon={GradeIcon} title = "Talks" />
 	<SidebarRow Icon={GroupIcon} title = "Meetup" />
 	<SidebarRow Icon={MicIcon} title = "Podcast" />
+	<hr />
 	</div>	
 );
 }
