@@ -19,7 +19,7 @@
 }
 
 .sidebarRow:hover > .SidebarRow__icon {
-	color:red;
+	color:#bf9b30;
 }
 
 .sidebarRow:hover > .SidebarRow__title {

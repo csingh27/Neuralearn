@@ -4,6 +4,7 @@ import GradeIcon from '@material-ui/icons/Grade';
 import GroupIcon from '@material-ui/icons/Group';
 import HomeIcon from '@material-ui/icons/Home';
 import GavelIcon from '@material-ui/icons/Gavel';
+import LiveTvIcon from '@material-ui/icons/LiveTv';
 import SidebarRow from './SidebarRow';
 import './Sidebar.css';
 import './Sidebar.js';
@@ -17,6 +18,7 @@ return(
 	<SidebarRow Icon={MicIcon} title = "Podcast" />
 	<hr />
 	<SidebarRow Icon={GavelIcon} title = "Projects" />
+	<SidebarRow Icon={LiveTvIcon} title = "Concept Library" />
 	</div>	
 );
 }
