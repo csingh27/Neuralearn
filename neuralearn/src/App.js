@@ -7,8 +7,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import SearchPage from './SearchPage';
 
 function App() {
-  return (
-    <div className="app">
+   return (
+       <div className="app">
 	 <Router>
 	 <Header />
 	  <Routes>

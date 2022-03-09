@@ -13,6 +13,11 @@
 - npm install @material-ui/icons
 - npm install --save material-ui-icons
 - npm install react-router-dom
+- npm install -g firebase-tools
+- npm install d3 --save .
+
+# DATASET
+- Move CSV files to /home/chandandeep/Neuralearn/neuralearn/public (where index.html exists)
 
 # RUN
 - cd neuralearn
